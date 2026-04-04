@@ -3,6 +3,7 @@ logo: /assets/images/profile.jpg
 #description text below image
 #show_downloads: True
 theme: jekyll-theme-minimal
+baseurl: "/portfolio"
 
 #Collections
 collections:
