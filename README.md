@@ -1,90 +1,102 @@
-# AI SCIENTIST   [![Blog](https://img.shields.io/badge/📚-Technical%20Blog-blue?style=for-the-badge)](./blog)
-- **Email:** johanneshyz@gmail.com
-- **Phone:** +229 0159074669
-- **LinkedIn:** [Johannes HOUNTON](https://www.linkedin.com/in/johannes-hounton-a87954271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
-- **GitHub:** [Kazeo57](https://github.com/Kazeo57)
-- **X:** [Johannes_hyz](https://x.com/Johannes_hyz?t=uvBgfI2sFK9_n2_NL0oaCQ&s=09)
--  **Discord:** Johannes_02085
+# Johannes Y.Z. Hounton
 
-## About me
-Just develop? No I'm more in research,continuous increasing,build AI system whatever ressources this is my goal ,every day.I'm know and I use the all basic Machine Learning algorithms but I prefer neural network throughout Language processing and Image Processing.Each work is a challenge for me and I want to do better every time.AI like we know today will change and I want to someone who can take the responsibility to lead this generation.
+**AI Engineer & Research-Oriented ML Builder**
 
+📧 johanneshyz@gmail.com &nbsp;|&nbsp; 📞 +229 0159074669 &nbsp;|&nbsp; 🇧🇯 Cotonou, Benin
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Johannes_Hounton-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/johannes-hounton-a87954271)
+[![GitHub](https://img.shields.io/badge/GitHub-Kazeo57-181717?style=flat-square&logo=github)](https://github.com/Kazeo57)
+[![X](https://img.shields.io/badge/X-Johannes__hyz-000000?style=flat-square&logo=x)](https://x.com/Johannes_hyz)
+[![Technical Blog](https://img.shields.io/badge/Blog-Technical_Writing-blue?style=flat-square)](./blog)
+
+---
+
+## About Me
+
+I don't just build — I research, iterate, and push limits every day. My focus is on neural networks across **Natural Language Processing** and **Computer Vision**, with a deep interest in the underlying mechanisms that make them work: attention, transformers, encoders, and beyond.
+
+Every project is a challenge. I work under real constraints — low-resource datasets, limited GPU environments — and I find ways to make things work anyway. I believe the AI landscape is still at its beginning, and I intend to be someone who helps shape the next generation of it.
+
+---
 
 ## Education
-- **CS Ste BAKHITA**
-- **INSTITUT DE FORMATION ET DE RECHERCHE EN INFORMATIQUE: Artificial Intelligence** 
 
-## Work Experience 
-- **Data Scientist @ Holding Bourjon Investment**
-- **Data Scientist  @ Bivariant**
+| Institution | Program |
+|---|---|
+| **Institut de Formation et de Recherche en Informatique (IFRI)** | Artificial Intelligence |
+| **CS Sainte Bakhita** | Secondary Education |
 
-## Projects
+---
 
-**Audio Processing :** A set of projects to process audio and extract voice features.
- With librosa and soundfile I built some analysis project to master in voice processing and feature extraction to improve ASR and  voice synthesis performance.I dive into Deeep Learning architecture especially in attention mechanism, Encoder, CTC like architectures, and many others. My recents work reshape low ressource GPU environment with optimizer.
+## Work Experience
 
- **Stroke segmentation***: For 7 months, my team and I worked on stroke detection algorithm on CT san Image which allow me to propose a double level solution. With DL Unet using pretrained layers of classification task from many models of zoo work in tensorflow to do a domain-adzptation architectures for segmentation, we divide brain in for vascular area which are responsible of some motions ou activities on body and we've prove efficiency in low ressource dataset. After that, I proposed Chan-Vese approach to find hypodensity part in each brain area and make a diagnosis.
+### Data Scientist — Holding Bourjon Investment
+Built and deployed machine learning pipelines for business analytics and decision-support systems.
 
- **DL master** : From end of 2024 to 2025, I follow some course on sequence model and attention mechanism on Coursera where a built many project of translation, Language modeling, probabilist traditional model and Vector Space works.
- 
-**SkinLesionFind :** A project on image segmentation based on skin lesion.
+### Data Scientist — Bivariant
+Developed data science solutions and predictive models for client-facing products.
 
-**Image Processing :** A little project on matrix use case and image processing to build some filters to extract information or process image.
-  
-**DogVsCat(classifying 37 species of dogs and cats) :**
-*This my last classification project which I must train a model to classify 37 species of Cat and Dog.Funally I passed the 0,85 accuracy with a loss less of 0,5*
+---
 
-**ASP (Chatbot for Public service at Benin) :** 
-*This a NLP project which I used a RAG to build an intelligent system answering to question s of users on public services at Benin.*
+## Skills
 
-**Insu :**
-*A small RAG project including a regression studies on medical Insurance to predict insurance and do advice.An agentic RAG have been used to build it.*
+**Deep Learning:** PyTorch · TensorFlow · Keras · Transformers · CNN · RNN · Attention Mechanisms · CTC  
+**NLP:** RAG · LLMs · Sequence Modeling · Language Modeling · Machine Translation · ASR  
+**Computer Vision:** Segmentation · Detection · Classification · OpenCV · Medical Imaging  
+**Tools & Infra:** Python · Flask · librosa · fairseq · Git · HuggingFace · Low-resource GPU optimization  
+**Languages:** French (native) · English (professional)
 
-**AudiBot :**
-*This a small RAG project answering to question about selling .This is also a hackathon of Indaba Ghana which I have tryed with my teammates.*
+---
 
-**AfriCanTalk (To undestand language Signs) :**
-*This is a project to translate language sign in African language.*
+## Selected Projects
 
-**Fongbe Translation :**
-*With fairseq,I build a model that can translate some french words in fongbe.*
+### 🧠 Stroke Segmentation *(7 months, team project)*
+Double-level solution for stroke detection on CT scan images. Combined a **DL U-Net** with pretrained classification layers (domain adaptation) to segment the four vascular brain areas responsible for motor and cognitive functions. Applied **Chan-Vese** algorithm to detect hypodensity zones and generate automated diagnoses. Proved efficiency under low-resource dataset constraints.
 
-**Breast cancer classification :**
-*A platform build with Flask and tensorflow to classify degree of cancer and predict before that it attacks patients.*
-**Vocal assistant :**
-*A small project which I can ask hours to my Vomputer and it answer me,I can also ask a music or ilage on Pinterest.I have added a voice to assistant to response me.*
+### 🔊 Audio Processing & ASR
+Series of projects using **librosa** and **soundfile** for voice feature extraction, targeting improvements in ASR and voice synthesis. Explored encoder-based architectures, CTC, and attention mechanisms. Optimized recent work for low-resource GPU environments.
 
-**Trashbox detection :**
-*With my teammates,I developed a detection model to find trashbox ,color to allow to a robot to put the correct garbage in correct trashbox*
+### 🌍 ASP — Chatbot for Public Services (Benin)
+NLP system using **RAG** to answer citizen questions about public services in Benin. Built to serve real administrative needs with accessible, conversational AI.
 
-**Motion detection :**
-*This is a computer Vision project based on opencv to track motion on a video.*
+### 🌿 Fongbe Translation
+Neural machine translation model built with **fairseq** to translate French to Fongbe, a low-resource African language. Contributing to NLP accessibility for underrepresented languages.
 
-**Facial Detection :**
-*A project to identify  people with a commaprison of image in input and a image of people on database*
+### 🏥 Breast Cancer Classification
+Flask + TensorFlow platform for early cancer-stage classification and predictive diagnosis, designed for clinical use.
 
-**Clustering from scratch :**
-*I bulnd a Clustering algorith from scratch to classify Irsis flowers*
+### 🐾 Dog vs Cat — 37 Species Classification
+Fine-grained classification across 37 species of dogs and cats. Achieved **>85% accuracy** with loss below 0.5.
 
-**Text_to_Speech :** 
-*I had written a script to pass text to audio*
+### 🩺 SkinLesionFind
+Image segmentation project focused on skin lesion detection using deep learning.
 
-**StopWords from scratch :**
-*When I did my initiation in NLP ,I have learn how build a stopwords and their meaning in Language field.*
+### 🌐 AfriCanTalk — Sign Language Translation
+Computer vision system to translate African sign language into text/audio output.
 
-**Text Processing :**
-*This is a whole of work to ckean text in NLP field*
+### 🤖 Insu — Medical Insurance RAG Agent
+Agentic RAG combining insurance premium regression with intelligent advisory responses for medical insurance queries.
 
-## LANGUAGES
-French 
-English 
+### 🛒 AudiBot — Sales Chatbot *(Indaba Ghana Hackathon)*
+RAG-based conversational agent for product and sales Q&A, built with teammates under hackathon conditions.
 
+### 🗑️ Trashbox Detection *(team project)*
+Object detection model to identify trash bins by color type, enabling a robot to sort waste correctly into appropriate containers.
 
+### 📚 DL Master — Sequence Models & Attention
+Coursera-based deep study (end 2024–2025) covering translation, language modeling, probabilistic models, and vector spaces — with hands-on project implementations at each step.
 
+### Other Projects
+`Motion Detection` · `Facial Recognition` · `Vocal Assistant` · `Text-to-Speech` · `Image Processing & Filters` · `Clustering from Scratch` · `StopWords from Scratch` · `Text Processing Pipeline`
 
+---
 
+## Technical Blog
 
+I document my projects in depth — architecture decisions, experiments, challenges, and results.
 
- 
+👉 **[Read the Technical Blog](./blog)**
 
+---
+
+*"Build whatever the resources. Understand whatever the complexity."*
