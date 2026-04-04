@@ -2,16 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }} | {{ site.title }}</title>
+  <title>{{ page.title }} | Johannes Hounton</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
   <style>
     body { max-width: 800px; margin: 0 auto; padding: 2rem; }
     .back-link { margin-bottom: 2rem; display: block; }
+    .hero { width: 100%; height: 260px; object-fit: cover; border-radius: 6px; display: block; margin-bottom: 1.5rem; }
+    .hero-placeholder { width: 100%; height: 260px; background: #eeece7; border-radius: 6px; display: block; margin-bottom: 1.5rem; }
   </style>
 </head>
 <body class="markdown-body">
   <a class="back-link" href="/blog">← Back to Blog</a>
+
+  {% if page.image %}
+  <img class="hero" src="{{ page.image }}" alt="{{ page.title }}">
+  {% else %}
+  <div class="hero-placeholder"></div>
+  {% endif %}
+
   <h1>{{ page.title }}</h1>
   <small>{{ page.date | date: "%B %d, %Y" }}</small>
   {% if page.tech %}
