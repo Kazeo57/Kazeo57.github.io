@@ -15,7 +15,7 @@ title: Blog
 .project-excerpt { font-size: 0.87rem; color: #3d3b35; line-height: 1.6; }
 </style>
 
-# Documented Projects
+# Blog
 
 <ul class="project-list">
 {% assign sorted = site.projects | sort: 'date' | reverse %}
