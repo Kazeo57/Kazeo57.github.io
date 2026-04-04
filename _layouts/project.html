@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+  <style>
+    body { max-width: 800px; margin: 0 auto; padding: 2rem; }
+    .back-link { margin-bottom: 2rem; display: block; }
+  </style>
+</head>
+<body class="markdown-body">
+  <a class="back-link" href="/blog">← Back to Blog</a>
+  <h1>{{ page.title }}</h1>
+  <small>{{ page.date | date: "%B %d, %Y" }}</small>
+  {% if page.tech %}
+  <p><strong>Tech:</strong> {{ page.tech | join: " · " }}</p>
+  {% endif %}
+  {{ content }}
+</body>
+</html>
