@@ -1,4 +1,9 @@
 # AI SCIENTIST 
+<p align="center">
+  <a href="./blog">
+    <img src="https://img.shields.io/badge/📚-Read%20My%20Technical%20Blog-blue?style=for-the-badge">
+  </a>
+</p>
 - **Email:** johanneshyz@gmail.com
 - **Phone:** +229 59074669
 - **LinkedIn:** [Johannes HOUNTON](https://www.linkedin.com/in/johannes-hounton-a87954271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
