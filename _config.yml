@@ -4,23 +4,7 @@ logo: /assets/images/profile.jpg
 #show_downloads: True
 theme: jekyll-theme-minimal
 
-description: |
-  AI Engineer & Research-Oriented ML Builder
-
-  <br><br>
-
-  <a href="/portfolio/blog/" style="
-      display:inline-block;
-      padding:10px 16px;
-      background-color:#0366d6;
-      color:white;
-      text-decoration:none;
-      border-radius:6px;
-      font-weight:bold;
-  ">
-  📚 Technical Blog
-  </a>
-
+#Collections
 collections:
   projects:
     output: true
