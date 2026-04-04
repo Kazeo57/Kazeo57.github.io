@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Building TinyGPT from Scratch
-date: 2026-03-30
+date: 2026-04-04
 tech: [PyTorch, Transformers, Deep Learning]
 ---
 
