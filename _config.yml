@@ -1,10 +1,27 @@
-title: Johannes Hounton 
-logo: /assets/images/profile.jpg 
-#description text below image 
-#show_downloads: True 
-theme: jekyll-theme-minimal 
+title: Johannes Hounton
+logo: /assets/images/profile.jpg
+#description text below image
+#show_downloads: True
+theme: jekyll-theme-minimal
+
+description: |
+  AI Engineer & Research-Oriented ML Builder
+
+  <br><br>
+
+  <a href="/portfolio/blog/" style="
+      display:inline-block;
+      padding:10px 16px;
+      background-color:#0366d6;
+      color:white;
+      text-decoration:none;
+      border-radius:6px;
+      font-weight:bold;
+  ">
+  📚 Technical Blog
+  </a>
 
 collections:
   projects:
-  output:true
-  permalink: /projects/:name/
+    output: true
+    permalink: /projects/:name/
