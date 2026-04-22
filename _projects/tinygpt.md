@@ -14,7 +14,7 @@ I implemented a minimal GPT model from scratch with a PyTorch high level API. No
 Before starting, I know, you usually hear about LLM, Agent and you ask yourself perhaps why this article. I stop you immediately, see it as a toy project, as a proof you can create your own LLM with your own constraints, your own will. You can start also from an existing architecture, or model to a new one. My main goal throughout this project is to give you the skills to create and optimize an LLM from model, architecture to real world problem and Cloud. For this you must understand the architecture mechanism that I implemented here.
 
 ## Data Preparation
-I followed the Medium article on ![Gutenberg](https://www.gutenberg.org/files/1342/1342-0.txt) use case for data collection. If you want to use another dataset, you can just put it and write a custom code to download it, nothing too hard. My long-term goal is to use low-resource languages instead of English here to work with.
+I followed the Medium article on [Gutenberg](https://www.gutenberg.org/files/1342/1342-0.txt) use case for data collection. If you want to use another dataset, you can just put it and write a custom code to download it, nothing too hard. My long-term goal is to use low-resource languages instead of English here to work with.
 
 ## Architecture
 
