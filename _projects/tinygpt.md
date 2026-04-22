@@ -1,9 +1,9 @@
 ---
 layout: project
-title: Building TinyGPT from Scratch
+title: Building TinyGPT from Scratch (Part 1)
 date: 2026-04-04
 tech: [PyTorch, Transformers, Deep Learning]
-excerpt: "Implementation of a minimal GPT model from scratch to deeply understand how transformers work.(Part 1)"
+excerpt: "Implementation of a minimal GPT model from scratch to deeply understand how transformers work."
 image: /assets/images/tinygpt.png
 ---
 
